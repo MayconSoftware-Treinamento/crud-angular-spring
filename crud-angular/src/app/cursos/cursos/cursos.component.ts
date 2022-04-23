@@ -10,7 +10,7 @@ import { Curso } from './../model/curso';
 export class CursosComponent implements OnInit {
 
   cursos: Curso[] = [
-    { _id: "1", nome: 'Angular', categoria: 'Front-end'}
+    { _id: '1', nome: 'Angular', categoria: 'Front-end'}
   ];
   displayedColumns = ['nome', 'categoria'];
 
